@@ -7,10 +7,10 @@ const fetch = require("node-fetch");
 
 Given(/^user logged and in product page$/, function() {
   browser.url("/");
+  browser.pause(1000);
   $("#user-name").setValue("standard_user");
   $("#password").setValue("secret_sauce");
   $(".btn_action").click();
-  browser.pause(1000);
 });
 
 When(/^sort with "([^"]*)"$/, function(sortOrder) {
@@ -55,16 +55,17 @@ When(/^go to checkout$/, function() {
 When(/^enter the address details$/, function() {
   $("#first-name").setValue("test");
   $("#last-name").setValue("test");
-  $("#postal-code").setValue("test");
+  $("#postal-code").setValue(12345);
   browser.pause(1000);
   $('//input[@value="CONTINUE"]').click();
 });
 
+// CART LIST
 Then(/^that the items that you added are in the cart$/, function(items) {
-  //cart_list
   console.log(items);
   const data = items.raw();
   console.log(data);
+  browser.pause(1000);
   data.forEach(function(element) {
     console.log("Element:" + element);
     $(".cart_list")
@@ -83,6 +84,7 @@ When(/^the item "([^"]*)" removed from the basket$/, function(product) {
 });
 
 When(/^the item "([^"]*)" is not in the basket$/, function(product) {
+  browser.pause(1000);
   expect(
     $(
       '//div[text()="' +
@@ -97,6 +99,7 @@ Then(/^the total should be "([^"]*)"$/, function(total) {
     .getText()
     .includes(total);
   console.log(actual);
+  browser.pause(1000);
   expect(actual).to.equal(true);
 });
 
@@ -112,7 +115,8 @@ Then(/^the confirmation should be shown$/, function() {
   console.log(actual);
   expect(actual).to.equal(true);
 });
-//API
+
+// STEP DEFINITIONS FOR API TESTING:
 Given(/^I build the url as "([^"]*)"$/, function(url) {
   this.url = url;
 });
