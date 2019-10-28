@@ -1,5 +1,5 @@
 # NWM_TEST
-Webdriver with Cucumber Test Framework;
+Webdriverio with Cucumber Test Framework;
 
 This test framework has been created for NWM code challenge. 
 Clone this project from Git. Run 'npm install' in root folder. 
