@@ -1,0 +1,1012 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1572232146034' stop='1572232161780'>
+    <name>Ecom tests User can add multiple items to basket</name>
+    <title>Ecom tests User can add multiple items to basket</title>
+    <test-cases>
+        <test-case start='1572232146052' status='passed' stop='1572232147851'>
+            <name>user logged and in product page</name>
+            <title>user logged and in product page</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232146059' status='passed' stop='1572232146398'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/url</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6e5cf10a-adc9-45f5-8b8c-5e5e566334fc-attachment.json' type='application/json' size='43'/>
+                        <attachment title='Response' source='b5c9cd73-9059-4d53-ada6-27f8ab20d0b6-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232146400' status='passed' stop='1572232146413'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2487d168-ecd1-486a-bf73-81fc079c4069-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='888c4493-9afc-4488-b0b8-3210a4a37984-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232146415' status='passed' stop='1572232146435'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6214702001304948-1/clear</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6214702001304948-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='a6a5897c-e78d-4bad-b475-8b0eb7a244b9-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232146435' status='passed' stop='1572232146529'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6214702001304948-1/value</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6214702001304948-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='623a2668-cbb2-49a2-ba14-234810dbe28e-attachment.json' type='application/json' size='221'/>
+                        <attachment title='Response' source='99eb60c6-80e7-4354-a74f-59df3070a434-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232146530' status='passed' stop='1572232146540'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='776ec30f-2629-445c-bbe5-dd4ab55b9389-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='3dc40756-33ec-4d0c-a80c-d8fd8d0241dc-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232146542' status='passed' stop='1572232146561'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6214702001304948-2/clear</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6214702001304948-2/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='b45b5482-928a-4cfd-9407-b335b3f3ef32-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232146562' status='passed' stop='1572232146600'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6214702001304948-2/value</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6214702001304948-2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='96f23d2d-095d-44a1-9728-8af936ce2621-attachment.json' type='application/json' size='207'/>
+                        <attachment title='Response' source='80af1142-975a-4b83-9e44-6f21ae02618d-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232146601' status='passed' stop='1572232146612'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='17c196ca-ff0d-49ea-bcf3-077f25b34828-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='ae4412b3-ac5b-48d7-a73b-10eda5ea7e75-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232146614' status='passed' stop='1572232146842'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6214702001304948-3/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6214702001304948-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='d3dad24b-ce60-492c-83f0-884a52b36e22-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232147851' status='passed' stop='1572232148924'>
+            <name>sort with "Price (low to high)"</name>
+            <title>sort with "Price (low to high)"</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232147853' status='passed' stop='1572232147868'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='62a421bf-d6ed-4634-8f5a-b9aa085c590d-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='cf4b0257-862e-4e50-b985-679aaed705f2-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232147869' status='passed' stop='1572232147883'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-1/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-1/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7b9ea4fc-88fd-4427-ab96-f0885c809b78-attachment.json' type='application/json' size='199'/>
+                        <attachment title='Response' source='64c93a2d-0d69-49e2-aaa6-9324fe1cd485-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232147883' status='passed' stop='1572232147916'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-2/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='d2a6180b-6703-4f95-9cdc-67dbd531bf41-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232148924' status='passed' stop='1572232148961'>
+            <name>the first item should be "Sauce Labs Onesie"</name>
+            <title>the first item should be "Sauce Labs Onesie"</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232148925' status='passed' stop='1572232148939'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6d689101-1cf5-4c26-81bc-a02c1583ab45-attachment.json' type='application/json' size='120'/>
+                        <attachment title='Response' source='5e0064bd-d68a-43fa-aff2-bd88810082c6-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232148940' status='passed' stop='1572232148958'>
+                    <name>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-3/text</name>
+                    <title>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-3/text</title>
+                    <attachments>
+                        <attachment title='Response' source='2a9c9995-cf33-4be8-b0b4-4a665ae82295-attachment.json' type='application/json' size='267'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232148961' status='passed' stop='1572232150018'>
+            <name>sort with "Price (high to low)"</name>
+            <title>sort with "Price (high to low)"</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232148962' status='passed' stop='1572232148971'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d1d9e63b-1706-4036-91f5-3d89eb388cd4-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='ff88ef89-10de-41af-b120-b7978e94df35-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232148971' status='passed' stop='1572232148983'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-1/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-1/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ef4b1a96-0ba8-456d-8798-2e90dcd57b5c-attachment.json' type='application/json' size='199'/>
+                        <attachment title='Response' source='5dab302c-588e-4c8a-b3fc-0ebf395bb5a0-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232148983' status='passed' stop='1572232149010'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-4/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-4/click</title>
+                    <attachments>
+                        <attachment title='Response' source='0d308549-b15f-41b9-83bf-dedd33682bb4-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232150018' status='passed' stop='1572232150049'>
+            <name>the first item should be "Sauce Labs Fleece Jacket"</name>
+            <title>the first item should be "Sauce Labs Fleece Jacket"</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232150019' status='passed' stop='1572232150030'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1d38f6c5-1267-48e2-8441-4433df509838-attachment.json' type='application/json' size='120'/>
+                        <attachment title='Response' source='21ad5e17-c743-4e69-a7d8-4e3d799aff65-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232150031' status='passed' stop='1572232150049'>
+                    <name>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-5/text</name>
+                    <title>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-5/text</title>
+                    <attachments>
+                        <attachment title='Response' source='4bf7329e-8a62-42da-98d5-99a4f04c0397-attachment.json' type='application/json' size='281'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232150049' status='passed' stop='1572232151322'>
+            <name>select "Sauce Labs Backpack" and Add to cart</name>
+            <title>select "Sauce Labs Backpack" and Add to cart</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232150050' status='passed' stop='1572232150063'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c03283cc-c174-4650-993e-458249886355-attachment.json' type='application/json' size='89'/>
+                        <attachment title='Response' source='34be8940-ccb5-4676-ab02-72e4343cd897-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232150065' status='passed' stop='1572232150176'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-6/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.8598327921556825-6/click</title>
+                    <attachments>
+                        <attachment title='Response' source='da96dddd-9ee1-4a51-b773-65ee781e754f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232151180' status='passed' stop='1572232151195'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f4a0079c-dae7-44ed-9d7e-371b1368cf3f-attachment.json' type='application/json' size='100'/>
+                        <attachment title='Response' source='87a36be9-90fd-478b-aeb1-8aedaca12a8b-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232151198' status='passed' stop='1572232151242'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.15884058095578912-1/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.15884058095578912-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='0d4b7341-82e8-4617-974a-053d7e4b9676-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232151243' status='passed' stop='1572232151257'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e5d16639-aaae-41ba-b8dd-2b4a204d6a94-attachment.json' type='application/json' size='88'/>
+                        <attachment title='Response' source='ba051d03-6864-45c2-89ae-794eafcdc876-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232151258' status='passed' stop='1572232151321'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.15884058095578912-2/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.15884058095578912-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='61bb65bc-a2ef-4768-af7a-325b0e9697bb-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232151322' status='passed' stop='1572232152542'>
+            <name>select "Sauce Labs Bike Light" and Add to cart</name>
+            <title>select "Sauce Labs Bike Light" and Add to cart</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232151326' status='passed' stop='1572232151338'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1c8994a5-e3b8-4d00-91fa-6ad0890270e9-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='fdc22ad4-2df1-4178-92b9-71b2ba85e125-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232151340' status='passed' stop='1572232151415'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.943627502217395-1/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.943627502217395-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='21368b3d-c604-4671-a786-e1a30b33a0ed-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232152417' status='passed' stop='1572232152428'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c157fc2d-b290-4fad-a7ff-851effc26d86-attachment.json' type='application/json' size='100'/>
+                        <attachment title='Response' source='49146b65-f447-4977-b6a0-70276c09e561-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232152430' status='passed' stop='1572232152475'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.40924792562974077-1/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.40924792562974077-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='66ac83d9-72ca-4403-bae3-98ec20131815-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232152478' status='passed' stop='1572232152490'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='199be1a7-04d8-4e16-8652-cdb8873961a0-attachment.json' type='application/json' size='88'/>
+                        <attachment title='Response' source='4ce2b23d-88d8-4fd1-838e-b4820389d5c0-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232152493' status='passed' stop='1572232152540'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.40924792562974077-2/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.40924792562974077-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='ff4e0047-706e-4160-9cfe-8df47849f3ed-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232152542' status='passed' stop='1572232153643'>
+            <name>go to cart</name>
+            <title>go to cart</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232153550' status='passed' stop='1572232153565'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b819fd68-56f1-4dd1-b4cc-bcdb649cad92-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='0025102d-b4a6-4a85-b5bd-71eb23780b97-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232153567' status='passed' stop='1572232153643'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.7371914381585154-1/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.7371914381585154-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='c81ed29a-d00e-4812-82da-3c445209eecd-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232153643' status='passed' stop='1572232153711'>
+            <name>that the items that you added are in the cart</name>
+            <title>that the items that you added are in the cart</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232153647' status='passed' stop='1572232153660'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5a80e518-91ee-4824-a078-eb2d5ec2849d-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='40390db6-94c3-4d14-9798-9ee4b352e238-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232153662' status='passed' stop='1572232153683'>
+                    <name>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.41639552603460683-1/text</name>
+                    <title>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.41639552603460683-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='e3885915-cbfc-4a6c-98c4-205b28a7ce83-attachment.json' type='application/json' size='479'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232153683' status='passed' stop='1572232153693'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='95a8b2fd-2b52-4144-a198-b7dd8084f59b-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='0308ec06-d0d8-439e-957b-b8a558b2666d-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232153695' status='passed' stop='1572232153710'>
+                    <name>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.41639552603460683-1/text</name>
+                    <title>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.41639552603460683-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='100a5f6e-79ec-4b1e-a1f6-d50a09e947b9-attachment.json' type='application/json' size='479'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232153711' status='passed' stop='1572232154762'>
+            <name>the item "Sauce Labs Backpack" removed from the basket</name>
+            <title>the item "Sauce Labs Backpack" removed from the basket</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232153712' status='passed' stop='1572232153724'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='98dd1b7c-cead-4c2b-9be4-77c4a091e0af-attachment.json' type='application/json' size='142'/>
+                        <attachment title='Response' source='3b44393a-5aed-411e-9d86-ef0c92e40188-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232153725' status='passed' stop='1572232153761'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.41639552603460683-2/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.41639552603460683-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='4609a4b9-a318-4ffc-8693-0a6a76ad3abf-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232154763' status='passed' stop='1572232154790'>
+            <name>the item "Sauce Labs Backpack" is not in the basket</name>
+            <title>the item "Sauce Labs Backpack" is not in the basket</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232154763' status='passed' stop='1572232154774'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a71a0571-f634-4a61-8370-78c3e07e849b-attachment.json' type='application/json' size='142'/>
+                        <attachment title='Response' source='67339d3e-0a85-48c8-8446-9d1622343f7c-attachment.json' type='application/json' size='780'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232154775' status='passed' stop='1572232154790'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/elements</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='cf4a78a3-9058-46f6-931e-3f009c061fc5-attachment.json' type='application/json' size='142'/>
+                        <attachment title='Response' source='ad42319b-c27a-4721-941a-4ad20aaef287-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232154790' status='passed' stop='1572232155839'>
+            <name>go to home page</name>
+            <title>go to home page</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232155798' status='passed' stop='1572232155838'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/url</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c938f893-abce-4b60-89d5-63f862951372-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='7073b3a8-be79-432c-95f2-f9b92b5d0c21-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232155839' status='passed' stop='1572232157066'>
+            <name>select "Sauce Labs Bolt T-Shirt" and Add to cart</name>
+            <title>select "Sauce Labs Bolt T-Shirt" and Add to cart</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232155840' status='passed' stop='1572232155853'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='695affbc-8e97-4cd1-b0ab-d1502af3eca2-attachment.json' type='application/json' size='93'/>
+                        <attachment title='Response' source='64fc9dcb-67eb-47ad-8a66-72889ed5b0fc-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232155854' status='passed' stop='1572232155926'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.7277069612379747-1/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.7277069612379747-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='a97b7c65-7b87-4cf8-87b6-e91b2592e499-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232156935' status='passed' stop='1572232156945'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='445d8006-17e6-4be8-8e15-78c55d594a7b-attachment.json' type='application/json' size='100'/>
+                        <attachment title='Response' source='ca6421f1-fb0b-472a-a3f2-cffe4fca6d2d-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232156946' status='passed' stop='1572232156995'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.315306439106559-1/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.315306439106559-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='85ad55e1-2564-4dc4-945c-2f3b5b76483a-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232156996' status='passed' stop='1572232157006'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fda2e4ed-a9ac-45ad-a5f7-18bbc8c25034-attachment.json' type='application/json' size='88'/>
+                        <attachment title='Response' source='0a36538b-0add-4514-a7cd-3058d78f3e71-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232157007' status='passed' stop='1572232157066'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.315306439106559-2/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.315306439106559-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='35df6bb9-2c57-41b9-a23b-45ba1a81fdc3-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232157066' status='passed' stop='1572232158148'>
+            <name>go to cart</name>
+            <title>go to cart</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232158074' status='passed' stop='1572232158084'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a034cf20-8a7b-4aa3-b4b8-bc75aac3a2b7-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='631d2c6a-84ec-4cc9-9c1b-cdc5902024b5-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232158085' status='passed' stop='1572232158147'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6525696411993758-1/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6525696411993758-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='6cb29923-c110-4797-b5c0-03df624e5877-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232158148' status='passed' stop='1572232158180'>
+            <name>that the items that you added are in the cart</name>
+            <title>that the items that you added are in the cart</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232158149' status='passed' stop='1572232158158'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5da7e085-abb0-4af8-b5c9-25c7e46cad0c-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='94cda301-6202-4297-a190-7e9e6c32d196-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232158160' status='passed' stop='1572232158180'>
+                    <name>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.37009039539182154-1/text</name>
+                    <title>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.37009039539182154-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='3a59cde1-b063-4ac6-a44e-52ef1caedd82-attachment.json' type='application/json' size='492'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232158180' status='passed' stop='1572232159285'>
+            <name>go to checkout</name>
+            <title>go to checkout</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232159197' status='passed' stop='1572232159285'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/url</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2dceb351-69ae-4230-81f5-881b29079ada-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='09194852-3b71-4bfc-b700-2c2ffb4baa0b-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232159285' status='passed' stop='1572232160590'>
+            <name>enter the address details</name>
+            <title>enter the address details</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232159287' status='passed' stop='1572232159301'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9a3f231c-d540-4839-93e1-5b64b56249ec-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='47d3e7f9-98c7-435c-9f04-e2b8402bf839-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232159302' status='passed' stop='1572232159324'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-1/clear</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='0cbd1270-2e4c-41de-a12b-b9b458730ee2-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232159324' status='passed' stop='1572232159353'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-1/value</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='20ca2dea-dbff-4767-a657-96f4a5f283c4-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='9194a10f-3834-49b7-9eb7-4dcd052aa80b-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232159353' status='passed' stop='1572232159365'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c9d27722-920b-4dd4-a049-22c177c8f7c0-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='d1cdbbf8-7d92-435d-ab19-e8baae61bf51-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232159366' status='passed' stop='1572232159385'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-2/clear</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-2/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='a60a89a5-5605-4318-91cd-bfa66d70f773-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232159385' status='passed' stop='1572232159412'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-2/value</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='a93ede1e-8e73-402f-b901-74a2b41a71c0-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='865df948-31a9-49e6-8381-b88ea7a0fcd5-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232159413' status='passed' stop='1572232159424'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='28bad6b6-2a66-454a-a2f8-15fab31878ea-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='95377b3e-17a5-4ed1-bafe-f8b16a9ac783-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232159425' status='passed' stop='1572232159444'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-3/clear</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-3/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='0ea8152f-5dd5-45f4-ba0c-64d8fcd251a2-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232159444' status='passed' stop='1572232159470'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-3/value</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-3/value</title>
+                    <attachments>
+                        <attachment title='Request' source='e35db81f-172a-414c-bf81-2133924f12a0-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='da9b9c86-6b69-4150-97be-8fbd4c734519-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232160473' status='passed' stop='1572232160487'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b9628248-8635-46bd-bd15-06f09b9d3836-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='1808c972-cfbc-4c00-a67d-cade966fda2e-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232160488' status='passed' stop='1572232160589'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-4/click</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.920429940431595-4/click</title>
+                    <attachments>
+                        <attachment title='Response' source='f4dc8750-af57-4d2e-8dc9-832b1cec28c2-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232160590' status='passed' stop='1572232160648'>
+            <name>that the items that you added are in the cart</name>
+            <title>that the items that you added are in the cart</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232160591' status='passed' stop='1572232160600'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5263a046-b709-4e13-8570-841ea7a06f78-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='5314dde3-dbe0-4693-80a8-dee3e96c2795-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232160602' status='passed' stop='1572232160621'>
+                    <name>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6694301564981289-1/text</name>
+                    <title>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6694301564981289-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='56de5ef3-dc30-416c-b155-81bd5b50b159-attachment.json' type='application/json' size='478'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232160622' status='passed' stop='1572232160630'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cc5c5440-7af1-4858-8dcc-a5be4088d6bd-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='2923d190-6707-4c4a-af8d-b8f3a5567431-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232160631' status='passed' stop='1572232160648'>
+                    <name>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6694301564981289-1/text</name>
+                    <title>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6694301564981289-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='808a293b-c069-4213-965b-2dafaad8376f-attachment.json' type='application/json' size='478'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232160648' status='passed' stop='1572232160676'>
+            <name>the total should be "$28.06"</name>
+            <title>the total should be "$28.06"</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232160649' status='passed' stop='1572232160661'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f592edd2-8d64-4125-88aa-12d0fe2c12f6-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='9d674b06-22b4-41d6-98dc-ed7624ee8557-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232160662' status='passed' stop='1572232160676'>
+                    <name>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6694301564981289-2/text</name>
+                    <title>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.6694301564981289-2/text</title>
+                    <attachments>
+                        <attachment title='Response' source='d7951474-ff29-4fd6-8087-eb133b2e1583-attachment.json' type='application/json' size='102'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232160676' status='passed' stop='1572232161738'>
+            <name>go to finish order</name>
+            <title>go to finish order</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232160677' status='passed' stop='1572232160735'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/url</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d7f5a660-f4e5-47c5-8d2d-5af6e128ac2f-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='3dbffebc-346a-4956-98e7-e923b6f89ee0-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232161738' status='passed' stop='1572232161779'>
+            <name>the confirmation should be shown</name>
+            <title>the confirmation should be shown</title>
+            <labels>
+                <label name='feature' value='Ecom tests'/>
+                <label name='story' value='User can add multiple items to basket'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/ecomm.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1572232161739' status='passed' stop='1572232161753'>
+                    <name>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</name>
+                    <title>POST /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b56433de-9830-4635-9ba9-6f069915af5a-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='f6d27de1-3066-4e2a-8e69-df87b286aa5a-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572232161754' status='passed' stop='1572232161779'>
+                    <name>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.2079360093848137-1/text</name>
+                    <title>GET /wd/hub/session/ea13d8bc9b23992877fd12a7c5b4efcd/element/0.2079360093848137-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='1bf163d4-8251-4236-b62b-c5e36c2a02e6-attachment.json' type='application/json' size='317'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

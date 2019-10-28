@@ -1,0 +1,41 @@
+[ {
+  "uid" : "b8843ea5cb0c2f8e",
+  "name" : "he should see the welcome message \"A place to share your knowledge...\"",
+  "time" : {
+    "start" : 1527945633606,
+    "stop" : 1527945633696,
+    "duration" : 90
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fbf06aa6e0b67ff",
+  "name" : "he should see the welcome message \"A place to share your knowledge.\"",
+  "time" : {
+    "start" : 1527945240890,
+    "stop" : 1527945240983,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55e684ab16d80e5e",
+  "name" : "user is in landing page",
+  "time" : {
+    "start" : 1527945622517,
+    "stop" : 1527945633546,
+    "duration" : 11029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "424ac327e6339f98",
+  "name" : "he should see the banner",
+  "time" : {
+    "start" : 1527945633546,
+    "stop" : 1527945633605,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

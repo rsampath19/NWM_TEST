@@ -1,0 +1,57 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "User accounts Welcome messages",
+    "children" : [ {
+      "name" : "he should see the welcome message \"A place to share your knowledge.\"",
+      "uid" : "2fbf06aa6e0b67ff",
+      "parentUid" : "1b8bb6a11a33c9f1970078f1a4ad2660",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527945240890,
+        "stop" : 1527945240983,
+        "duration" : 93
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "user is in landing page",
+      "uid" : "55e684ab16d80e5e",
+      "parentUid" : "1b8bb6a11a33c9f1970078f1a4ad2660",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527945622517,
+        "stop" : 1527945633546,
+        "duration" : 11029
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "he should see the banner",
+      "uid" : "424ac327e6339f98",
+      "parentUid" : "1b8bb6a11a33c9f1970078f1a4ad2660",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527945633546,
+        "stop" : 1527945633605,
+        "duration" : 59
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "he should see the welcome message \"A place to share your knowledge...\"",
+      "uid" : "b8843ea5cb0c2f8e",
+      "parentUid" : "1b8bb6a11a33c9f1970078f1a4ad2660",
+      "status" : "failed",
+      "time" : {
+        "start" : 1527945633606,
+        "stop" : 1527945633696,
+        "duration" : 90
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "1b8bb6a11a33c9f1970078f1a4ad2660"
+  } ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "values": ["{\"maxInstances\":5,\"browserName\":\"chrome\"}"],
+    "name": "capabilities"
+  },
+  {
+    "values": [
+      "[\"/Users/ramyaHari/dev/react-web/react-redux-realworld-example-app/bdd/features/regression/useraccount.feature\"]"
+    ],
+    "name": "spec files"
+  }
+]

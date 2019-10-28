@@ -1,0 +1,140 @@
+{
+  "uid": "8743c5ad8d6a127f",
+  "name": "he should see the welcome message \"A place to share your knowledge...\"",
+  "fullName": "User accounts Welcome messages.he should see the welcome message \"A place to share your knowledge...\"",
+  "historyId": "ee8673cc6347784aa5d657d54d8f7955",
+  "time": {
+    "start": 1527945455139,
+    "stop": 1527945455246,
+    "duration": 107
+  },
+  "description": "",
+  "descriptionHtml": "",
+  "status": "failed",
+  "statusMessage": "expected 'A place to share your knowledge...' to equal 'A place to share your knowledge.'",
+  "statusTrace": "AssertionError: expected 'A place to share your knowledge...' to equal 'A place to share your knowledge.'\n                    at World.<anonymous> (/Users/ramyahari/dev/react-web/react-redux-realworld-example-app/bdd/features/step-definitions/stepDefs.js:21:20)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/ramyahari/.nvm/versions/node/v8.11.1/lib/node_modules/wdio-cucumber-framework/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "failed",
+    "statusMessage": "expected 'A place to share your knowledge...' to equal 'A place to share your knowledge.'",
+    "statusTrace": "AssertionError: expected 'A place to share your knowledge...' to equal 'A place to share your knowledge.'\n                    at World.<anonymous> (/Users/ramyahari/dev/react-web/react-redux-realworld-example-app/bdd/features/step-definitions/stepDefs.js:21:20)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/ramyahari/.nvm/versions/node/v8.11.1/lib/node_modules/wdio-cucumber-framework/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps":
+      {
+        "name": "POST /wd/hub/session/862335344045a1807702aa8effb23a8b/elements",
+        "time": {
+          "start": 1527945455140,
+          "stop": 1527945455197,
+          "duration": 57
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "5f6c2b37f8c5e05c",
+            "name": "Request",
+            "source": "5f6c2b37f8c5e05c.json",
+            "type": "application/json",
+            "size": 88
+          },
+          {
+            "uid": "f21b65049191ebe1",
+            "name": "Response",
+            "source": "f21b65049191ebe1.json",
+            "type": "application/json",
+            "size": 161
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "attachmentsCount": 2,
+        "shouldDisplayMessage": false,
+        "hasContent": true
+      },
+      {
+        "name": "GET /wd/hub/session/862335344045a1807702aa8effb23a8b/element/0.32539044450450727-2/text",
+        "time": {
+          "start": 1527945455197,
+          "stop": 1527945455237,
+          "duration": 40
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "e3760e7ad74fc0d",
+            "name": "Response",
+            "source": "e3760e7ad74fc0d.json",
+            "type": "application/json",
+            "size": 121
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false,
+        "hasContent": true
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "stepsCount": 2,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": true,
+    "hasContent": true
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "User accounts"
+    },
+    {
+      "name": "framework",
+      "value": "wdio"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    },
+    {
+      "name": "story",
+      "value": "Welcome messages"
+    },
+    {
+      "name": "suite",
+      "value": "User accounts Welcome messages"
+    },
+    {
+      "name": "testClass",
+      "value": "User accounts Welcome messages"
+    },
+    {
+      "name": "testMethod",
+      "value": "he should see the welcome message \"A place to share your knowledge...\""
+    },
+    {
+      "name": "package",
+      "value": "User accounts Welcome messages"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure1"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser",
+      "value": "chrome"
+    }
+  ],
+  "links": [],
+  "hidden": true,
+  "retry": true,
+  "extra": {
+    "categories": [],
+    "tags": []
+  },
+  "source": "8743c5ad8d6a127f.json",
+  "parameterValues": ["chrome"]
+}

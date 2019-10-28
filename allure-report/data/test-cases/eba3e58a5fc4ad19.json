@@ -1,0 +1,116 @@
+{
+  "uid" : "eba3e58a5fc4ad19",
+  "name" : "he should see the banner",
+  "fullName" : "User accounts Welcome messages.he should see the banner",
+  "historyId" : "e1c62ec5d087b90b553c178de89ef8d1",
+  "time" : {
+    "start" : 1527945240821,
+    "stop" : 1527945240889,
+    "duration" : 68
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/4549ddcdc418ae3cfccd23cfa9658932/elements",
+      "time" : {
+        "start" : 1527945240824,
+        "stop" : 1527945240848,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c032121f3fc8d26",
+        "name" : "Request",
+        "source" : "1c032121f3fc8d26.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "2edb35822a1b870b",
+        "name" : "Response",
+        "source" : "2edb35822a1b870b.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/4549ddcdc418ae3cfccd23cfa9658932/element/0.32783656438109543-1/text",
+      "time" : {
+        "start" : 1527945240849,
+        "stop" : 1527945240885,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "411a7cd89f75e4b8",
+        "name" : "Response",
+        "source" : "411a7cd89f75e4b8.json",
+        "type" : "application/json",
+        "size" : 96
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User accounts"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Welcome messages"
+  }, {
+    "name" : "suite",
+    "value" : "User accounts Welcome messages"
+  }, {
+    "name" : "testClass",
+    "value" : "User accounts Welcome messages"
+  }, {
+    "name" : "testMethod",
+    "value" : "he should see the banner"
+  }, {
+    "name" : "package",
+    "value" : "User accounts Welcome messages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eba3e58a5fc4ad19.json",
+  "parameterValues" : [ "chrome" ]
+}

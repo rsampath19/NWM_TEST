@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 'A place to share your knowledge...' to equal 'A place to share your knowledge.'",
+      "children" : [ {
+        "name" : "he should see the welcome message \"A place to share your knowledge...\"",
+        "uid" : "b8843ea5cb0c2f8e",
+        "parentUid" : "c4a3235564b00cf0060cc20400d57140",
+        "status" : "failed",
+        "time" : {
+          "start" : 1527945633606,
+          "stop" : 1527945633696,
+          "duration" : 90
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "c4a3235564b00cf0060cc20400d57140"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1572232143879' stop='1572232144015'>
+    <name>Conduit Local Test Create a get request Create a post request Create a put request Create a patch request Create a delete request</name>
+    <title>Conduit Local Test Create a get request Create a post request Create a put request Create a patch request Create a delete request</title>
+    <test-cases>
+        <test-case start='1572232143887' status='passed' stop='1572232143890'>
+            <name>I build the url as "http://jsonplaceholder.typicode.com/posts/1"</name>
+            <title>I build the url as "http://jsonplaceholder.typicode.com/posts/1"</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a get request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232143890' status='passed' stop='1572232143891'>
+            <name>set headers</name>
+            <title>set headers</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a get request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232143891' status='passed' stop='1572232144013'>
+            <name>perform the request "GET"</name>
+            <title>perform the request "GET"</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a get request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572232144013' status='passed' stop='1572232144014'>
+            <name>assert the response</name>
+            <title>assert the response</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a get request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","goog:chromeOptions":{"args":["--headless","--disable-gpu"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

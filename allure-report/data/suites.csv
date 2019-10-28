@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"failed","User accounts Welcome messages.he should see the welcome message ""A place to share your knowledge...""","90",""
+"passed","User accounts Welcome messages.he should see the welcome message ""A place to share your knowledge.""","93",""
+"passed","User accounts Welcome messages.user is in landing page","11029",""
+"passed","User accounts Welcome messages.he should see the banner","59",""

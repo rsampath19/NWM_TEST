@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1572229225623' stop='1572229227129'>
+    <name>Conduit Local Test Create a get request Create a post request Create a put request</name>
+    <title>Conduit Local Test Create a get request Create a post request Create a put request</title>
+    <test-cases>
+        <test-case start='1572229226581' status='passed' stop='1572229226581'>
+            <name>I build the url as "https://jsonplaceholder.typicode.com/posts/1"</name>
+            <title>I build the url as "https://jsonplaceholder.typicode.com/posts/1"</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a put request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572229226582' status='passed' stop='1572229226582'>
+            <name>set headers</name>
+            <title>set headers</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a put request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572229226582' status='passed' stop='1572229227125'>
+            <name>perform the request "PUT"</name>
+            <title>perform the request "PUT"</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a put request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572229227125' status='passed' stop='1572229227126'>
+            <name>set the body parameter</name>
+            <title>set the body parameter</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a put request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572229227126' status='passed' stop='1572229227128'>
+            <name>assert the response</name>
+            <title>assert the response</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a put request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

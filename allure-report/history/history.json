@@ -1,0 +1,79 @@
+{
+  "586f812b1e8638e6111ceeb1f3cd1f00" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2fbf06aa6e0b67ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527945240890,
+        "stop" : 1527945240983,
+        "duration" : 93
+      }
+    } ]
+  },
+  "125d52587169984f3daca34686a393f4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55e684ab16d80e5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527945622517,
+        "stop" : 1527945633546,
+        "duration" : 11029
+      }
+    } ]
+  },
+  "ee8673cc6347784aa5d657d54d8f7955" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b8843ea5cb0c2f8e",
+      "status" : "failed",
+      "statusDetails" : "expected 'A place to share your knowledge...' to equal 'A place to share your knowledge.'",
+      "time" : {
+        "start" : 1527945633606,
+        "stop" : 1527945633696,
+        "duration" : 90
+      }
+    } ]
+  },
+  "e1c62ec5d087b90b553c178de89ef8d1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "424ac327e6339f98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527945633546,
+        "stop" : 1527945633605,
+        "duration" : 59
+      }
+    } ]
+  }
+}

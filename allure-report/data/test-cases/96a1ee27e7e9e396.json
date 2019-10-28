@@ -1,0 +1,95 @@
+{
+  "uid" : "96a1ee27e7e9e396",
+  "name" : "user is in landing page",
+  "fullName" : "User accounts Welcome messages.user is in landing page",
+  "historyId" : "125d52587169984f3daca34686a393f4",
+  "time" : {
+    "start" : 1527945229431,
+    "stop" : 1527945240821,
+    "duration" : 11390
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/4549ddcdc418ae3cfccd23cfa9658932/url",
+      "time" : {
+        "start" : 1527945229444,
+        "stop" : 1527945230810,
+        "duration" : 1366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92e33905b62b6d15",
+        "name" : "Request",
+        "source" : "92e33905b62b6d15.json",
+        "type" : "application/json",
+        "size" : 39
+      }, {
+        "uid" : "9e696861f0593264",
+        "name" : "Response",
+        "source" : "9e696861f0593264.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User accounts"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Welcome messages"
+  }, {
+    "name" : "suite",
+    "value" : "User accounts Welcome messages"
+  }, {
+    "name" : "testClass",
+    "value" : "User accounts Welcome messages"
+  }, {
+    "name" : "testMethod",
+    "value" : "user is in landing page"
+  }, {
+    "name" : "package",
+    "value" : "User accounts Welcome messages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96a1ee27e7e9e396.json",
+  "parameterValues" : [ "chrome" ]
+}

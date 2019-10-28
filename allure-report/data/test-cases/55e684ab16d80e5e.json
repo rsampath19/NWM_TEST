@@ -1,0 +1,113 @@
+{
+  "uid" : "55e684ab16d80e5e",
+  "name" : "user is in landing page",
+  "fullName" : "User accounts Welcome messages.user is in landing page",
+  "historyId" : "125d52587169984f3daca34686a393f4",
+  "time" : {
+    "start" : 1527945622517,
+    "stop" : 1527945633546,
+    "duration" : 11029
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/bfbdfa3b29f251714571085c4d74f23f/url",
+      "time" : {
+        "start" : 1527945622525,
+        "stop" : 1527945623534,
+        "duration" : 1009
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa039edfa211bb09",
+        "name" : "Request",
+        "source" : "fa039edfa211bb09.json",
+        "type" : "application/json",
+        "size" : 39
+      }, {
+        "uid" : "8909fd104d33d755",
+        "name" : "Response",
+        "source" : "8909fd104d33d755.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User accounts"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Welcome messages"
+  }, {
+    "name" : "suite",
+    "value" : "User accounts Welcome messages"
+  }, {
+    "name" : "testClass",
+    "value" : "User accounts Welcome messages"
+  }, {
+    "name" : "testMethod",
+    "value" : "user is in landing page"
+  }, {
+    "name" : "package",
+    "value" : "User accounts Welcome messages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e472f0e99ab96752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527945443831,
+        "stop" : 1527945455029,
+        "duration" : 11198
+      }
+    }, {
+      "uid" : "96a1ee27e7e9e396",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527945229431,
+        "stop" : 1527945240821,
+        "duration" : 11390
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55e684ab16d80e5e.json",
+  "parameterValues" : [ "chrome" ]
+}

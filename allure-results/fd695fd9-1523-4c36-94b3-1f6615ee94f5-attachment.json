@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": "#inventory_container > div > div:nth-child(1) > div.inventory_item_label"
+}

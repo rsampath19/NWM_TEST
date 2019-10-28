@@ -1,0 +1,118 @@
+{
+  "uid" : "2fbf06aa6e0b67ff",
+  "name" : "he should see the welcome message \"A place to share your knowledge.\"",
+  "fullName" : "User accounts Welcome messages.he should see the welcome message \"A place to share your knowledge.\"",
+  "historyId" : "586f812b1e8638e6111ceeb1f3cd1f00",
+  "time" : {
+    "start" : 1527945240890,
+    "stop" : 1527945240983,
+    "duration" : 93
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/4549ddcdc418ae3cfccd23cfa9658932/elements",
+      "time" : {
+        "start" : 1527945240893,
+        "stop" : 1527945240935,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "90b61114ee2195e8",
+        "name" : "Request",
+        "source" : "90b61114ee2195e8.json",
+        "type" : "application/json",
+        "size" : 88
+      }, {
+        "uid" : "ea43a48762b011ec",
+        "name" : "Response",
+        "source" : "ea43a48762b011ec.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/4549ddcdc418ae3cfccd23cfa9658932/element/0.32783656438109543-2/text",
+      "time" : {
+        "start" : 1527945240937,
+        "stop" : 1527945240983,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab015cd636f941d4",
+        "name" : "Response",
+        "source" : "ab015cd636f941d4.json",
+        "type" : "application/json",
+        "size" : 121
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User accounts"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Welcome messages"
+  }, {
+    "name" : "suite",
+    "value" : "User accounts Welcome messages"
+  }, {
+    "name" : "testClass",
+    "value" : "User accounts Welcome messages"
+  }, {
+    "name" : "testMethod",
+    "value" : "he should see the welcome message \"A place to share your knowledge.\""
+  }, {
+    "name" : "package",
+    "value" : "User accounts Welcome messages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2fbf06aa6e0b67ff.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1572229019217' stop='1572229020183'>
+    <name>Conduit Local Test Create a get request</name>
+    <title>Conduit Local Test Create a get request</title>
+    <test-cases>
+        <test-case start='1572229019900' status='passed' stop='1572229019900'>
+            <name>I build the url as "http://jsonplaceholder.typicode.com/posts/1"</name>
+            <title>I build the url as "http://jsonplaceholder.typicode.com/posts/1"</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a delete request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572229019900' status='passed' stop='1572229019900'>
+            <name>set headers</name>
+            <title>set headers</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a delete request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572229019900' status='passed' stop='1572229020182'>
+            <name>perform the request "DELETE"</name>
+            <title>perform the request "DELETE"</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a delete request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572229020182' status='passed' stop='1572229020183'>
+            <name>assert the response</name>
+            <title>assert the response</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a delete request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

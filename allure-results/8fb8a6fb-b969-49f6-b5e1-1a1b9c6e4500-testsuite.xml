@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1572234393521' stop='1572234394899'>
+    <name>Conduit Local Test Create a get request Create a post request</name>
+    <title>Conduit Local Test Create a get request Create a post request</title>
+    <test-cases>
+        <test-case start='1572234394221' status='passed' stop='1572234394222'>
+            <name>I build the url as "https://jsonplaceholder.typicode.com/posts/1"</name>
+            <title>I build the url as "https://jsonplaceholder.typicode.com/posts/1"</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a patch request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572234394222' status='passed' stop='1572234394222'>
+            <name>set headers</name>
+            <title>set headers</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a patch request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572234394222' status='passed' stop='1572234394897'>
+            <name>perform the request "PATCH"</name>
+            <title>perform the request "PATCH"</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a patch request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572234394897' status='passed' stop='1572234394898'>
+            <name>set the body parameter for patch</name>
+            <title>set the body parameter for patch</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a patch request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572234394898' status='passed' stop='1572234394899'>
+            <name>assert the response</name>
+            <title>assert the response</title>
+            <labels>
+                <label name='feature' value='Conduit Local Test'/>
+                <label name='story' value='Create a patch request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ramyahari/NWM_BDD/features/regression/apitest.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
