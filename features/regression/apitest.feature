@@ -21,13 +21,6 @@ Feature:Conduit Local Test
     And set the body parameter
     Then assert the response
 
-  Scenario: Create a patch request
-    Given I build the url as "https://jsonplaceholder.typicode.com/posts/1"
-    When set headers
-    And perform the request "PATCH"
-    And set the body parameter for patch
-    Then assert the response
-
   Scenario: Create a delete request
     Given I build the url as "http://jsonplaceholder.typicode.com/posts/1"
     When set headers

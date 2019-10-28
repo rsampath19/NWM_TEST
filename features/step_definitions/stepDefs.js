@@ -138,7 +138,7 @@ When(/^perform the request "([^"]*)"$/, async function(requestType) {
   })
     .then(response => response.json())
     .then(json => json);
-  console.log(actualResult);
+  console.log("Response from api", actualResult);
 });
 
 Then(/^assert the response$/, function() {});
@@ -150,8 +150,4 @@ When(/^set the body parameter$/, function() {
     '      "body": "bar",\n' +
     '      "userId": 1\n' +
     "    }";
-});
-
-When(/^set the body parameter for patch$/, function() {
-  this.body = "{\n" + '\t"title": "foo"\n' + "    }";
 });
